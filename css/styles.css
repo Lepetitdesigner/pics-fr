@@ -1,0 +1,272 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    font-family: 'open sans';
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img {
+    vertical-align: bottom;
+}
+* {
+    scroll-behavior: smooth;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.t-center {
+    text-align: center;
+}
+.d-flex {
+    display: flex;
+    justify-content: space-around;
+}
+h2,h3 {
+    text-transform: uppercase;
+}
+h2 {
+    letter-spacing: 15px;
+    font-size: 47px;
+    font-family: 'cinzel';
+}
+
+h3 {
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: 'cinzel';
+}
+.relatifPosition {
+    position: relative;
+}
+.absolutPosition {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.absolutPosition1 {
+    position: absolute;
+    top: 16%;
+    left: 32%;
+}
+.size span, .size1 span {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.center {
+    margin-top: 181px;
+}
+span {
+    width: 30px;
+    height: 1px;
+    background-color: black;
+    display: inline-block;
+}
+.ajust {
+    align-items: center;
+    margin-top: 100px;
+    justify-content: center;
+}
+.ajust1 {
+    width: 940px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+.ajust1 .d-flex {
+    justify-content: space-between;
+}
+ul,li {
+    display: inline;
+}
+nav ul li a {
+    font-size: 15px;
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+.res {
+    margin-right: 0;
+}
+nav {
+    text-align: center;
+    margin: 30px 0;
+}
+.ajust h3 {
+    margin: 0 15px;
+}
+
+.size {
+    width: 441px;
+}
+.size p, .size1 p {
+    margin-bottom: 16px;
+    line-height: 115%;
+}
+h4 {
+    font-size: 40px;
+    font-family: 'cinzel';
+}
+.size1 {
+    width: 970px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+header {
+    z-index: 100;
+}
+textarea {
+    
+    width: 392px;
+}
+input {
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 385px;
+}
+input[type="submit"] {
+    width: 194px;
+    background-color: #fff;
+}
+.size2 {
+    justify-content: space-between;
+    width: 398px;
+}
+.ajust2 {
+    margin: 0 5px;
+}
+h1 {
+    font-size: 24px;
+    font-weight: lighter;
+}
+h1 span {
+    font-weight: bolder;
+    width: 0;
+    height: 0;
+}
+footer {
+    margin-top: 100px;
+    padding: 100px 0;
+    background-color: #DCDCDC;
+}
+footer p {
+    font-size: 14px;
+}
+.spe {
+    font-size: 24px;
+    letter-spacing: 0;
+    margin-top: 50px;
+    margin-bottom: 100px;    
+}
+h5 {
+    font-size: 15px;
+    margin-top: 10px;
+}
+.description {
+    font-weight: lighter;
+    text-align: center;
+}
+.description p {
+    font-size: 13px;
+    margin-top: 5px;
+}
+.space {
+    margin: 50px 0;
+}
+body {
+    background-color: #F2F0F0;
+}
+.pos-absolut {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.test {
+    justify-content: space-between;  
+}
+.test2 {
+    justify-content: space-between;
+    width: 262px;
+    margin: 0 auto;
+}
+.test1 {
+    justify-content: start;
+    align-items: center;
+    
+}
+.login {
+    background-color: #fff;
+    width: 300px;
+    height: 150px;
+    margin-top: 294px;
+    margin-right: 310px;
+    padding: 30px 15px 30px 0;
+    box-shadow: 0px 0px 4px black;
+}
+.login input {
+    width: 100px;
+}
+.login input[type="password"], .login input[type="text"] {
+    width: 250px;
+}
+.login input[type="password"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.login input[type="checkbox"] {
+    width: 13px;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 10px;
+}
+label {
+    font-size: 13px;
+}
+.white {
+    color: #fff;
+}
+.login h3 {
+    font-size: 20px;
+    margin-bottom: 15px;    
+}
+    
